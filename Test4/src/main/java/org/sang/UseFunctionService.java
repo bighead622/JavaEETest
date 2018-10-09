@@ -15,8 +15,6 @@ public class UseFunctionService {
     @Autowired
     FunctionService functionService;
     public String sayHello(String word) {
-        int i =0;
         return functionService.sayHello(word);
-
     }
 }
