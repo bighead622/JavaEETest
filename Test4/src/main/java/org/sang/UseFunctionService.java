@@ -15,6 +15,8 @@ public class UseFunctionService {
     @Autowired
     FunctionService functionService;
     public String sayHello(String word) {
+        System.out.println(11);
         return functionService.sayHello(word);
+
     }
 }
